@@ -5,7 +5,7 @@ class TopBar extends Component {
   render() {
     return (
         <div className="top-bar-container py-2 flex border-b items-center justify-between">
-
+            <DropDown />
             <button className="flex items-center justify-center p-2 mx-2 border rounded" onClick={this.props.toggleSidebar}>
                 <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" className="fill-current h-4 w-4">
                     <title>Menu</title>

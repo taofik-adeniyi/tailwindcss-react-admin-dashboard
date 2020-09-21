@@ -32,7 +32,7 @@ class UserProfile extends Component {
         <div className="flex flex-wrap items-start justify-start">
           <div className="flex w-full md:w-1/2 px-2 my-2">
             <div className="flex flex-1 items-center justify-center flex-col rounded shadow-lg px-4">
-              <img className="black h-32 shadow rounded-full mt-8 mb-4" src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4" />
+              <img className="black h-32 shadow rounded-full mt-8 mb-4" src="https://avatars2.githubusercontent.com/u/4323180?s=400&u=4962a4441fae9fba5f0f86456c6c506a21ffca4f&v=4" alt="radad" />
               <span className="text-grey text-center">{this.state.title} at {this.state.company}</span>
               <div className="flex flex-col my-8 items-center justify-center">
                 <span className="text-xl text-center">{this.state.firstName} {this.state.lastName}</span>
